@@ -1,0 +1,18 @@
+# Build directory
+/build/
+
+# CMake generated files
+/CMakeFiles/
+/CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Executable files
+EigenNeuralNet
+EigenNeuralNet.exe
+
+# Eigen librar
+include/Eigen/
+
+# Temporary files
+*~
