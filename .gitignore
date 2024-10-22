@@ -11,8 +11,12 @@ Makefile
 EigenNeuralNet
 EigenNeuralNet.exe
 
-# Eigen librar
-include/Eigen/
+# Eigen library (exclude the entire eigen-3.4.0 directory)
+eigen-3.4.0/
+
+# Visual Studio Code settings
+/.vscode/
+/c_cpp_properties.json
 
 # Temporary files
 *~
